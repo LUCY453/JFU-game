@@ -1,0 +1,19 @@
+{
+  "name": "stepfather-escape-game",
+  "version": "1.0.0",
+  "description": "一个多人在线逃生游戏",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Build completed'",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.0",
+    "socket.io": "^4.6.1",
+    "socket.io-client": "^4.6.1"
+  },
+  "devDependencies": {
+    "vercel": "^28.18.3"
+  }
+}
